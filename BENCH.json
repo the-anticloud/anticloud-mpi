@@ -543,7 +543,7 @@
    "url": "https://github.com/open-mpi/ompi",
    "head": "eaf72d1f3fbf2ec1dfdc714eee1e41f04e930aba",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/mpi4py/mpi4py"
+   "previous_substitute": "https://github.com/open-mpi/ompi"
   }
  }
 }
