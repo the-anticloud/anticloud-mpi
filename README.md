@@ -1,22 +1,25 @@
 # MPI
 
-> This directory contains the full 30-folder standard documentation set for `MPI`:
+> [The Open MPI Project](https://www.open-mpi.org/) is an open source implementation of the [Message Passing Interface (MPI) specification](https://www.mpi-forum.org/docs/) that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors,
 
-**Category:** SUPERCOMPUTER · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/mpi4py/mpi4py · **Pinned commit:** `2b677d85309682c197cc72ae684005498b1d147f` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/mpi4py/mpi4py` as the implementation for the `MPI` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** SUPERCOMPUTER · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/open-mpi/ompi · **Pinned commit:** `eaf72d1f3fbf2ec1dfdc714eee1e41f04e930aba` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-This directory contains the full 30-folder standard documentation set for `MPI`:
+[The Open MPI Project](https://www.open-mpi.org/) is an open source implementation of the [Message Passing Interface (MPI) specification](https://www.mpi-forum.org/docs/) that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors,
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-```
-# See the upstream README (linked above) for build steps.
-```
+The source code for Open MPI's docs can be found in the Open MPI Git
+repository under the `docs` folder.
+
+Developers who clone the Open MPI Git repository will not have the
+HTML documentation and man pages by default; it must be built.
+Instructions for how to build the Open MPI documentation can be found
+here:
+https://docs.open-mpi.org/en/main/developers/prerequisites.html#sphinx-and-therefore-python.
 
 ## Usage
 
@@ -62,7 +65,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-f6c26e3c50b2ebc9c9a0aa2727ad18ad877ff1c1ed619e124b41c9d15cff62ae
+4b95d39326eb6616327ac28c88ae90eb9dab58f641ea549b0385eb31be99e581
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

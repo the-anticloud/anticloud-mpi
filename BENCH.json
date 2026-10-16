@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "2b677d85309682c197cc72ae684005498b1d147f",
-   "url": "https://github.com/mpi4py/mpi4py",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/open-mpi/ompi",
+   "head": "eaf72d1f3fbf2ec1dfdc714eee1e41f04e930aba",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/mpi4py/mpi4py"
   }
  }
 }
